@@ -10,7 +10,23 @@ export interface Project {
   publication?: string;
 }
 
+
 const data: Project[] = [
+  {
+    title: 'Reinforcement Learning for Quantum Control',
+    subtitle: 'University of Oslo — Bachelor\'s Thesis',
+    link: '', // No specific link provided yet
+    image: '/images/projects/rl_quantum.jpg', // Placeholder
+    date: '2025-09-01',
+    desc:
+      'Explored Reinforcement Learning (RL) and Quantum Reinforcement Learning (QRL) for Active Quantum Control. ' +
+      'Developed a hardware-agnostic framework using a single trained agent to generalize across quantum state spaces, transforming any initial state to arbitrary targets via optimized unitary sequences. ' +
+      'Evaluated classical DDPG, its quantum counterpart (Quantum-DDPG), and DDQN schemes. ' +
+      'Benchmarked performance using sample-complexity metrics to assess convergence efficiency, robustness, and scalability.',
+    slug: 'rl-quantum-control',
+    github: '',
+    publication: '',
+  },
   {
     title: 'Dark Matter Detectors Research',
     subtitle: 'UIS Research Center',
