@@ -22,28 +22,28 @@ const raleway = Raleway({
 
 export const metadata: Metadata = {
   title: {
-    default: "Michael D'Angelo",
-    template: "%s | Michael D'Angelo",
+    default: "Francesco Giuseppe Minisini",
+    template: "%s | Francesco Giuseppe Minisini",
   },
   description:
     'Co-founder & CTO building LLM security tools. Previously VP Engineering, YC alum, Stanford ICME.',
   keywords: [
-    "Michael D'Angelo",
+    "Francesco Giuseppe Minisini",
     'LLM security',
     'machine learning',
     'CTO',
     'startup founder',
     'YC',
   ],
-  authors: [{ name: "Michael D'Angelo" }],
-  creator: "Michael D'Angelo",
+  authors: [{ name: "Francesco Giuseppe Minisini" }],
+  creator: "Francesco Giuseppe Minisini",
   metadataBase: new URL('https://mldangelo.com'),
   openGraph: {
     type: 'website',
     locale: 'en_US',
     url: 'https://mldangelo.com',
-    siteName: "Michael D'Angelo",
-    title: "Michael D'Angelo",
+    siteName: "Francesco Giuseppe Minisini",
+    title: "Francesco Giuseppe Minisini",
     description:
       'Co-founder & CTO building LLM security tools. Previously VP Engineering, YC alum, Stanford ICME.',
     images: [
@@ -51,7 +51,7 @@ export const metadata: Metadata = {
         url: '/images/me.jpg',
         width: 1200,
         height: 630,
-        alt: "Michael D'Angelo",
+        alt: "Francesco Giuseppe Minisini",
       },
     ],
   },

@@ -17,121 +17,90 @@ const skills: Skill[] = [
     category: ['Languages', 'ML Engineering'],
   },
   {
-    title: 'TypeScript',
-    competency: 5,
+    title: 'C++',
+    competency: 4,
+    category: ['Languages', 'Physics'],
+  },
+  {
+    title: 'Rust',
+    competency: 3,
     category: ['Languages', 'Web Development'],
   },
   {
-    title: 'SQL',
-    competency: 4,
+    title: 'C# / .NET',
+    competency: 3,
+    category: ['Languages', 'Web Development'],
+  },
+  {
+    title: 'SQL (T-SQL)',
+    competency: 3,
     category: ['Languages', 'Databases'],
   },
-  // AI & LLM
+  // Quantum Computing
   {
-    title: 'AI Agents',
-    competency: 5,
-    category: ['ML Engineering'],
-  },
-  {
-    title: 'LLM Evaluation',
-    competency: 5,
-    category: ['ML Engineering'],
-  },
-  {
-    title: 'AI Red-teaming',
-    competency: 5,
-    category: ['ML Engineering'],
-  },
-  {
-    title: 'LLM APIs',
-    competency: 5,
-    category: ['ML Engineering'],
-  },
-  {
-    title: 'RAG',
+    title: 'Qiskit',
     competency: 4,
-    category: ['ML Engineering'],
+    category: ['Quantum Computing'],
   },
   {
-    title: 'Prompt Engineering',
-    competency: 4,
-    category: ['ML Engineering'],
+    title: 'PennyLane',
+    competency: 3,
+    category: ['Quantum Computing'],
   },
-  {
-    title: 'Vector Databases',
-    competency: 4,
-    category: ['ML Engineering', 'Databases'],
-  },
+  // ML & AI
   {
     title: 'PyTorch',
     competency: 4,
     category: ['ML Engineering'],
   },
   {
-    title: 'Pandas',
-    competency: 5,
-    category: ['ML Engineering', 'Data Engineering'],
-  },
-  // Web Development
-  {
-    title: 'Node.js',
-    competency: 5,
-    category: ['Web Development'],
-  },
-  {
-    title: 'FastAPI',
+    title: 'JAX',
     competency: 4,
-    category: ['Web Development'],
+    category: ['ML Engineering'],
   },
   {
-    title: 'Next.js',
-    competency: 3,
-    category: ['Web Development'],
-  },
-  // Databases
-  {
-    title: 'PostgreSQL',
+    title: 'LangGraph',
     competency: 4,
-    category: ['Databases'],
+    category: ['ML Engineering'],
   },
   {
-    title: 'Redis',
+    title: 'Azure AI',
     competency: 3,
-    category: ['Databases'],
+    category: ['ML Engineering', 'Infrastructure'],
   },
-  // Infrastructure
+  // Physics & Tools
   {
-    title: 'AWS',
+    title: 'GEANT4',
+    competency: 3,
+    category: ['Physics'],
+  },
+  {
+    title: 'ROOT',
+    competency: 3,
+    category: ['Physics'],
+  },
+  {
+    title: 'Linux',
     competency: 4,
     category: ['Infrastructure'],
   },
   {
-    title: 'Docker',
+    title: 'Git',
     competency: 4,
     category: ['Infrastructure'],
-  },
-  {
-    title: 'Kubernetes',
-    competency: 3,
-    category: ['Infrastructure'],
-  },
-  {
-    title: 'Observability',
-    competency: 4,
-    category: ['Infrastructure', 'ML Engineering'],
   },
 ].map((skill) => ({ ...skill, category: skill.category.sort() }));
 
 // this is a list of colors that I like. The length should be === to the
 // number of categories. Re-arrange this list until you find a pattern you like.
 const colors: string[] = [
-  '#6968b3',
-  '#37b1f5',
-  '#40494e',
-  '#515dd4',
-  '#e47272',
-  '#cc7b94',
-  '#3896e2',
+  '#6968b3', // Languages
+  '#37b1f5', // ML Engineering
+  '#40494e', // Physics
+  '#515dd4', // Quantum Computing
+  '#e47272', // Web Development
+  '#cc7b94', // Databases
+  '#3896e2', // Infrastructure
   '#c3423f',
   '#d75858',
   '#747fff',

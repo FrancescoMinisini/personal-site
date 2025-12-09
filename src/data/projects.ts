@@ -9,47 +9,43 @@ export interface Project {
 
 const data: Project[] = [
   {
-    title: 'Nearest Dollar',
-    subtitle: '2015 BVP Hackathon',
-    image: '/images/projects/nearestdollar.jpg',
-    date: '2015-11-20',
+    title: 'Quantum Key Distribution',
+    subtitle: '1st Place - IBM Qiskit Fall Fest 2025',
+    image: '/images/projects/spacepotato.jpg', // Placeholder
+    date: '2025-09-01',
     desc:
-      'Built for a social impact hackathon. ' +
-      'NearestDollar connected to your bank accounts, credit cards, ' +
-      'or debit cards and rounded up your purchases to donate the balance to ' +
-      'the charity of your choice.',
+      'Developed and implemented a Quantum Key Distribution (QKD) algorithm using BB84 and E91 protocols. ' +
+      'Simulated an n-node encrypted network and analyzed eavesdropping attacks and quantum error rates.',
   },
   {
-    title: 'Harvest',
-    subtitle: 'Won 3rd. place in 2015 Techcrunch Disrupt SF Hackathon',
-    link: 'https://devpost.com/software/harvest',
-    image: '/images/projects/harvest.jpg',
-    date: '2015-09-20',
+    title: 'Sahel Land Degradation Monitor',
+    subtitle: '2nd Place - START Hack 2025',
+    link: 'https://www.starthack.eu/',
+    image: '/images/projects/harvest.jpg', // Placeholder
+    date: '2025-03-01',
     desc:
-      'Won ~ $7000 in prizes for an advanced, low cost monitoring solution ' +
-      'for crops. Harvest was designed to catch irrigation leaks, overwatering, ' +
-      'and nutrient deficiencies at an affordable price for the developing world.',
+      'Interactive visualization dashboard integrating Earth-observation data (MODIS, CHIRPS) ' +
+      'and demographic indicators to monitor land degradation in the Sahel. ' +
+      'Applied statistical techniques to identify environmental trends.',
   },
   {
-    title: 'Space Potato',
-    subtitle: 'A kickstarter funded potato powered weather balloon.',
-    link: 'http://www.spacepotato.org',
-    image: '/images/projects/spacepotato.jpg',
-    date: '2015-06-28',
+    title: 'Financial AI Agent',
+    subtitle: 'Techisland Srl (Microsoft for Startups Winner)',
+    image: '/images/projects/nearestdollar.jpg', // Placeholder
+    date: '2024-01-01',
     desc:
-      'Launched a potato battery powered weather balloon with two cameras ' +
-      'and gps transponder. Resulting photos were published in a coffee table book. ' +
-      'You can email me for a copy.',
+      'Built analytical and agentic ML tooling leveraging LangGraph workflows to enable ' +
+      'natural-language financial queries, automated reporting, and treasury optimization models.',
   },
   {
-    title: 'Cat Detector',
-    subtitle: 'A convolutional neural network to classify cats! (and dogs)',
-    image: '/images/projects/catdetector.jpg',
-    date: '2015-05-15',
+    title: 'Biomechanics Analysis',
+    subtitle: 'Research at IRCCS CRO',
+    link: 'https://www.mdpi.com/1424-8220/24/23/7617',
+    image: '/images/projects/catdetector.jpg', // Placeholder
+    date: '2024-11-01',
     desc:
-      'Trained a convolutional neural network to classify between ~ 80 cats breeds. ' +
-      'Over 60,000 cats were classified before server bills made the project too expensive ' +
-      'to continue hosting.',
+      'Developed data-analysis pipelines for movement mechanics in athletes. ' +
+      'Published research on roller speed skating biomechanics using semaphore-kinematics data.',
   },
 ];
 
