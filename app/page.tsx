@@ -18,10 +18,10 @@ export default function HomePage() {
             <h2>
               <Link href="/about">About this site</Link>
             </h2>
-            <p>
+            {/* <p>
               A beautiful, responsive, statically-generated, react application
               written with modern TypeScript.
-            </p>
+            </p> */}
           </div>
         </header>
         <p>
@@ -33,11 +33,11 @@ export default function HomePage() {
           <Link href="/stats">site statistics</Link>, or{' '}
           <Link href="/contact">contact</Link> me.
         </p>
-        <p>
+        {/* <p>
           {' '}
           Source available{' '}
           <a href="https://github.com/mldangelo/personal-site">here</a>.
-        </p>
+        </p> */}
       </article>
     </PageWrapper>
   );

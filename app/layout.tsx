@@ -37,15 +37,15 @@ export const metadata: Metadata = {
   ],
   authors: [{ name: "Francesco Giuseppe Minisini" }],
   creator: "Francesco Giuseppe Minisini",
-  metadataBase: new URL('https://mldangelo.com'),
+  metadataBase: new URL('https://fgminisini.com'),
   openGraph: {
     type: 'website',
     locale: 'en_US',
-    url: 'https://mldangelo.com',
+    url: 'https://fgminisini.com',
     siteName: "Francesco Giuseppe Minisini",
     title: "Francesco Giuseppe Minisini",
     description:
-      'Co-founder & CTO building LLM security tools. Previously VP Engineering, YC alum, Stanford ICME.',
+      'Researcher on Quantum Machine Learning.',
     images: [
       {
         url: '/images/me.jpg',
