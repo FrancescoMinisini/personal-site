@@ -54,3 +54,8 @@ tsconfig.tsbuildinfo
 
 # Nohup
 nohup.out
+
+# Export codebase artifacts
+codeexport.config.psd1
+codebase.txt
+exported_cb/

@@ -31,6 +31,11 @@ const nextConfig: NextConfig = {
   },
 };
 
+module.exports = {
+  basePath: '/personal-site',  // Matches your repo name
+  assetPrefix: '/personal-site/',  // Ensures assets like images load from the subpath
+};
+
 // Only apply bundle analyzer when not using Turbopack
 // This prevents the warning about Webpack being configured while Turbopack is not
 if (process.env.TURBOPACK !== '1') {
