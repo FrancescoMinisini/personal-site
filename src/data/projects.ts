@@ -16,7 +16,7 @@ const data: Project[] = [
     title: 'Reinforcement Learning for Quantum Control',
     subtitle: 'University of Oslo — Bachelor\'s Thesis',
     link: '',
-    image: '/images/projects/rl_quantum.jpg', // Placeholder
+    image: './images/projects/rl_quantum.jpg', // Placeholder
     date: '2025-09-01',
     desc:
       'Explored Reinforcement Learning (RL) and Quantum Reinforcement Learning (QRL) for Active Quantum Control. ' +
@@ -31,7 +31,7 @@ const data: Project[] = [
     title: 'Dark Matter Detectors Research',
     subtitle: 'UIS Research Center',
     link: '', // No specific link provided yet
-    image: '/images/projects/dark_matter.jpg', // Placeholder
+    image: './images/projects/dark_matter.jpg', // Placeholder
     date: '2025-01-01',
     desc:
       'Selected among top 4 European students (out of ~600) for research on dark matter detectors using OTPC architecture. ' +
@@ -45,7 +45,7 @@ const data: Project[] = [
     title: 'Quantum Key Distribution',
     subtitle: '1st Place - IBM Qiskit Fall Fest 2025',
     link: 'https://github.com/francescomininisi', // Placeholder assuming user wants github link here if not specified
-    image: '/images/projects/QKD.jpg',
+    image: './images/projects/qkd.jpg',
     date: '2025-09-01',
     desc:
       'Developed and implemented a Quantum Key Distribution (QKD) algorithm using BB84 and E91 protocols. ' +
@@ -58,7 +58,7 @@ const data: Project[] = [
   //   title: 'Sahel Land Degradation Monitor',
   //   subtitle: '2nd Place - START Hack 2025',
   //   link: 'https://www.starthack.eu/',
-  //   image: '/images/projects/harvest.jpg',
+  //   image: './images/projects/harvest.jpg',
   //   date: '2025-03-01',
   //   desc:
   //     'Interactive visualization dashboard integrating Earth-observation data (MODIS, CHIRPS) ' +
