@@ -37,11 +37,11 @@ export const metadata: Metadata = {
   ],
   authors: [{ name: "Francesco Giuseppe Minisini" }],
   creator: "Francesco Giuseppe Minisini",
-  metadataBase: new URL('https://fgminisini.com'),
+  metadataBase: new URL('https://francescominisini.github.io/personal-site/'),
   openGraph: {
     type: 'website',
     locale: 'en_US',
-    url: 'https://fgminisini.com',
+    url: 'https://francescominisini.github.io/personal-site/',
     siteName: "Francesco Giuseppe Minisini",
     title: "Francesco Giuseppe Minisini",
     description:
