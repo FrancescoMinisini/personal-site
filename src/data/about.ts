@@ -11,8 +11,8 @@ export const aboutMarkdown = `# Intro
  - **Summer 2020 - 2023**: Worked as a **Windsurfing Instructor** at Lake Como and in Crete, Greece.
  - **2023 - Present**: Working as an AI Engineer Associate at **Techisland Srl**, developing scalable AI-driven systems and winning the Microsoft for Startups Bundle.
  - **2024 (Apr - May)**: Participated in the **INFN International Masterclass**, analyzing LHCb collision data.
- - **2024 (Jun - Oct)**: Worked as an NLP Engineer Associate at **Allianz Bank / Progetto 2000**, automating ticket categorization achieving 91% accuracy.
- - **2024 - Present**: Researcher at **Laboratory of Movement Analysis, IRCCS CRO** in Padova, developing data-analysis pipelines for biomechanics.
+ - **2024 (Jun - Oct)**: Worked as an NLP Engineer Associate at **3AI (Progetto 2000)**, automating ticket categorization achieving 91% accuracy.
+ - **2024 - 2025**: Researcher at **Laboratory of Movement Analysis, IRCCS CRO** in Padova, developing data-analysis pipelines for biomechanics.
  - **2025 (Jan - Present)**: Researcher at **UIS Research Center** (London), selected as one of top 4 European students for dark matter detector research.
  - **2025 (Mar)**: Won **2nd Place** at [START Hack 2025](https://www.starthack.eu/) in St. Gallen, Switzerland for a land degradation monitoring dashboard.
  - **2025 (Aug)**: Graduated with Honors from **Google DeepMind Machine Learning Summer School (M2L)** in Split, Croatia (1.5% acceptance rate).
@@ -33,5 +33,4 @@ export const aboutMarkdown = `# Intro
  - I scored **334/340** on the GRE General Test (170Q, 164V - 99th percentile).
  - My startup work won the **Microsoft for Startups Bundle ($125,000)**.
  - I have a publication in *Sensors* on roller speed skating biomechanics.
- - I stack-rank coffee shops in Milan.
  `;
