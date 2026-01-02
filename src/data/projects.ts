@@ -51,7 +51,7 @@ const data: Project[] = [
       'Developed and implemented a Quantum Key Distribution (QKD) algorithm using BB84 and E91 protocols. ' +
       'Simulated an n-node encrypted network and analyzed eavesdropping attacks and quantum error rates.',
     slug: 'quantum-key-distribution',
-    github: 'https://github.com/francescomininisi/quantum-key-distribution', // Placeholder
+    github: 'https://github.com/QPhys-QiskitFallFestTeam/QKD_Qiskit', // Placeholder
     publication: '',
   },
   // {
