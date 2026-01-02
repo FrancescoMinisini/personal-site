@@ -16,7 +16,7 @@ const data: Project[] = [
     title: 'Reinforcement Learning for Quantum Control',
     subtitle: 'University of Oslo — Bachelor\'s Thesis',
     link: '',
-    image: './images/projects/rl_quantum.jpg', // Placeholder
+    image: 'images/projects/rl_quantum.jpg', // Placeholder
     date: '2025-09-01',
     desc:
       'Explored Reinforcement Learning (RL) and Quantum Reinforcement Learning (QRL) for Active Quantum Control. ' +
@@ -32,6 +32,7 @@ const data: Project[] = [
     subtitle: 'UIS Research Center',
     link: '', // No specific link provided yet
     image: './images/projects/dark_matter.jpg', // Placeholder
+    // image: './images/projects/dark_matter.jpg', // Placeholder
     date: '2025-01-01',
     desc:
       'Selected among top 4 European students (out of ~600) for research on dark matter detectors using OTPC architecture. ' +

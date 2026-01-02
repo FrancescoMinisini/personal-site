@@ -46,7 +46,7 @@ const ProjectPage = async ({ params }: ProjectPageProps) => {
 
                 <span className="image featured">
                     <Image
-                        src={project.image}
+                        src={'projects/'+project.image}
                         alt={project.title}
                         width={800}
                         height={500}
