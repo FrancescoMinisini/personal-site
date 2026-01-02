@@ -48,7 +48,7 @@ export const metadata: Metadata = {
       'Researcher on Quantum Machine Learning.',
     images: [
       {
-        url: '/images/me.jpg',
+        url: './images/me.jpg',
         width: 1200,
         height: 630,
         alt: "Francesco Giuseppe Minisini",
