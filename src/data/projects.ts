@@ -77,19 +77,19 @@ const data: Project[] = [
   //     'Built analytical and agentic ML tooling leveraging LangGraph workflows to enable ' +
   //     'natural-language financial queries, automated reporting, and treasury optimization models.',
   // },
-  {
-    title: 'Biomechanics Analysis',
-    subtitle: 'Research at IRCCS CRO',
-    link: 'https://www.mdpi.com/1424-8220/24/23/7617',
-    image: '/images/projects/catdetector.jpg',
-    date: '2024-11-01',
-    desc:
-      'Developed data-analysis pipelines for movement mechanics in athletes. ' +
-      'Published research on roller speed skating biomechanics using semaphore-kinematics data.',
-    slug: 'biomechanics-analysis',
-    github: '',
-    publication: 'https://www.mdpi.com/1424-8220/24/23/7617',
-  },
+  // {
+  //   title: 'Biomechanics Analysis',
+  //   subtitle: 'Research at IRCCS CRO',
+  //   link: 'https://www.mdpi.com/1424-8220/24/23/7617',
+  //   image: '/images/projects/catdetector.jpg',
+  //   date: '2024-11-01',
+  //   desc:
+  //     'Developed data-analysis pipelines for movement mechanics in athletes. ' +
+  //     'Published research on roller speed skating biomechanics using semaphore-kinematics data.',
+  //   slug: 'biomechanics-analysis',
+  //   github: '',
+  //   publication: 'https://www.mdpi.com/1424-8220/24/23/7617',
+  // },
 ];
 
 export default data;
