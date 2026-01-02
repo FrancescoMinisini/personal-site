@@ -39,7 +39,7 @@ const SideBar: React.FC = () => {
           <a href="https://www.uio.no/english/">University Of Oslo</a>. 
           Previously, I was a Dark Matter Researcher at <a href="">UIS Research Center</a>,
           developer at startup <a href="http://techisland.it/">Techisland</a>, and for
-           <a href="https://www.allianzbank.it/">Allianz Bank - Progetto 2000</a>.
+           <a href="https://www.3ai.co/"> 3AI (Progetto 2000)</a>.
         </p>
         <ul className="actions">
           <li>
