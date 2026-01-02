@@ -15,7 +15,7 @@ const data: Project[] = [
   {
     title: 'Reinforcement Learning for Quantum Control',
     subtitle: 'University of Oslo — Bachelor\'s Thesis',
-    link: '', // No specific link provided yet
+    link: '',
     image: '/images/projects/rl_quantum.jpg', // Placeholder
     date: '2025-09-01',
     desc:
@@ -54,20 +54,20 @@ const data: Project[] = [
     github: 'https://github.com/francescomininisi/quantum-key-distribution', // Placeholder
     publication: '',
   },
-  {
-    title: 'Sahel Land Degradation Monitor',
-    subtitle: '2nd Place - START Hack 2025',
-    link: 'https://www.starthack.eu/',
-    image: '/images/projects/harvest.jpg',
-    date: '2025-03-01',
-    desc:
-      'Interactive visualization dashboard integrating Earth-observation data (MODIS, CHIRPS) ' +
-      'and demographic indicators to monitor land degradation in the Sahel. ' +
-      'Applied statistical techniques to identify environmental trends.',
-    slug: 'sahel-land-degradation-monitor',
-    github: '',
-    publication: 'https://www.starthack.eu/',
-  },
+  // {
+  //   title: 'Sahel Land Degradation Monitor',
+  //   subtitle: '2nd Place - START Hack 2025',
+  //   link: 'https://www.starthack.eu/',
+  //   image: '/images/projects/harvest.jpg',
+  //   date: '2025-03-01',
+  //   desc:
+  //     'Interactive visualization dashboard integrating Earth-observation data (MODIS, CHIRPS) ' +
+  //     'and demographic indicators to monitor land degradation in the Sahel. ' +
+  //     'Applied statistical techniques to identify environmental trends.',
+  //   slug: 'sahel-land-degradation-monitor',
+  //   github: '',
+  //   publication: 'https://www.starthack.eu/',
+  // },
   // {
   //   title: 'Financial AI Agent',
   //   subtitle: 'Techisland Srl (Microsoft for Startups Winner)',
