@@ -31,7 +31,7 @@ const data: Project[] = [
     title: 'Dark Matter Detectors Research',
     subtitle: 'UIS Research Center',
     link: '', // No specific link provided yet
-    image: './images/projects/dark_matter.jpg', // Placeholder
+    image: 'images/projects/dark_matter.jpg', // Placeholder
     // image: './images/projects/dark_matter.jpg', // Placeholder
     date: '2025-01-01',
     desc:
@@ -46,7 +46,7 @@ const data: Project[] = [
     title: 'Quantum Key Distribution',
     subtitle: '1st Place - IBM Qiskit Fall Fest 2025',
     link: 'https://github.com/francescomininisi', // Placeholder assuming user wants github link here if not specified
-    image: './images/projects/qkd.jpg',
+    image: 'images/projects/qkd.jpg',
     date: '2025-09-01',
     desc:
       'Developed and implemented a Quantum Key Distribution (QKD) algorithm using BB84 and E91 protocols. ' +
@@ -59,7 +59,7 @@ const data: Project[] = [
   //   title: 'Sahel Land Degradation Monitor',
   //   subtitle: '2nd Place - START Hack 2025',
   //   link: 'https://www.starthack.eu/',
-  //   image: './images/projects/harvest.jpg',
+  //   image: 'images/projects/harvest.jpg',
   //   date: '2025-03-01',
   //   desc:
   //     'Interactive visualization dashboard integrating Earth-observation data (MODIS, CHIRPS) ' +
@@ -72,7 +72,7 @@ const data: Project[] = [
   // {
   //   title: 'Financial AI Agent',
   //   subtitle: 'Techisland Srl (Microsoft for Startups Winner)',
-  //   image: '/images/projects/nearestdollar.jpg',
+  //   image: 'images/projects/nearestdollar.jpg',
   //   date: '2024-01-01',
   //   desc:
   //     'Built analytical and agentic ML tooling leveraging LangGraph workflows to enable ' +
@@ -82,7 +82,7 @@ const data: Project[] = [
   //   title: 'Biomechanics Analysis',
   //   subtitle: 'Research at IRCCS CRO',
   //   link: 'https://www.mdpi.com/1424-8220/24/23/7617',
-  //   image: '/images/projects/catdetector.jpg',
+  //   image: 'images/projects/catdetector.jpg',
   //   date: '2024-11-01',
   //   desc:
   //     'Developed data-analysis pipelines for movement mechanics in athletes. ' +
