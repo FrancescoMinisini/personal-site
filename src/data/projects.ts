@@ -48,9 +48,13 @@ const data: Project[] = [
     link: 'https://qkd-nexus-lab.vercel.app/',
     image: 'images/projects/qkd.jpg',
     date: '2025-09-01',
-    desc:
-      'Developed and implemented a Quantum Key Distribution (QKD) algorithm using BB84 and E91 protocols. ' +
-      'Simulated an n-node encrypted network and analyzed eavesdropping attacks and quantum error rates.',
+desc:
+  'Designed and implemented Quantum Key Distribution (QKD) protocols based on BB84 and E91.' +
+   'Simulated an n-node encrypted quantum network and performed quantitative analysis of eavesdropping strategies'+
+   'and quantum bit error rates (QBER).'+
+   'The network implementation was integrated with an interactive front-end enabling exploration,'+
+   'of simulation results. The project ranked first among 350 partecipants at the'+
+   '2025 Qiskit Fall Fest Quantum Hackathon.',
     slug: 'quantum-key-distribution',
     github: 'https://github.com/QPhys-QiskitFallFestTeam/QKD_Qiskit', // Placeholder
     publication: '',
