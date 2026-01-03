@@ -41,12 +41,17 @@ const ProjectPage = async ({ params }: ProjectPageProps) => {
                         <time className="published">
                             {dayjs(project.date).format('MMMM, YYYY')}
                         </time>
+                        {project.status && (
+                            <div className="published" style={{ marginTop: '0.5rem', fontWeight: 'bold' }}>
+                                Status: {project.status}
+                            </div>
+                        )}
                     </div>
                 </header>
 
                 <span className="image featured">
                     <Image
-                        src={'../'+project.image}
+                        src={'../' + project.image}
                         alt={project.title}
                         width={800}
                         height={500}
@@ -59,33 +64,40 @@ const ProjectPage = async ({ params }: ProjectPageProps) => {
                     <p>{project.desc}</p>
                 </div>
 
-                <section>
-                    <h3>Links</h3>
-                    <ul className="actions">
-                        {project.github && (
-                            <li>
-                                <a href={project.github} className="button" target="_blank" rel="noopener noreferrer">
-                                    View on GitHub
-                                </a>
-                            </li>
-                        )}
-                        {project.publication && (
-                            <li>
-                                <a href={project.publication} className="button" target="_blank" rel="noopener noreferrer">
-                                    Related Publication / Results
-                                </a>
-                            </li>
-                        )}
-                        {/* Fallback to original link if meant for something else and not covered above */}
-                        {project.link && project.link !== project.github && project.link !== project.publication && (
-                            <li>
-                                <a href={project.link} className="button" target="_blank" rel="noopener noreferrer">
-                                    Visit Project
-                                </a>
-                            </li>
-                        )}
-                    </ul>
-                </section>
+                {project.links && project.links.length > 0 && (
+                    <section>
+                        <h3>Links</h3>
+                        <ul className="actions vertical">
+                            {project.links.map((link) => (
+                                <li key={link.url}>
+                                    <a href={link.url} className="button" target="_blank" rel="noopener noreferrer">
+                                        {link.label}
+                                    </a>
+                                    {link.description && (
+                                        <span style={{ display: 'block', fontSize: '0.9em', marginTop: '0.2rem', color: '#666' }}>
+                                            {link.description}
+                                        </span>
+                                    )}
+                                </li>
+                            ))}
+                        </ul>
+                    </section>
+                )}
+
+                {project.references && project.references.length > 0 && (
+                    <section style={{ marginTop: '2rem' }}>
+                        <h3>References / Inspired By</h3>
+                        <ul>
+                            {project.references.map((ref) => (
+                                <li key={ref.url}>
+                                    <a href={ref.url} target="_blank" rel="noopener noreferrer">
+                                        {ref.label || ref.url}
+                                    </a>
+                                </li>
+                            ))}
+                        </ul>
+                    </section>
+                )}
 
                 <div style={{ marginTop: '3rem' }}>
                     <Link href="/projects" className="button small">
