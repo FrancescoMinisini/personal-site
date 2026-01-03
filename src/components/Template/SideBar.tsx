@@ -35,10 +35,10 @@ const SideBar: React.FC = () => {
         <p>
           Hi, I&apos;m Francesco. I am a{' '}
           <a href="https://www.unimi.it/it">UNIMI</a> undergraduate
-          alumnus, Researcher at {' '}
-          <a href="https://www.uio.no/english/">University Of Oslo</a>. 
-          Previously, I was a Dark Matter Researcher at <a href="">UIS Research Center</a>,
-          developer at startup <a href="http://techisland.it/">Techisland</a>, and for
+          alumnus and Researcher at {' '}
+          <a href="https://www.uio.no/english/">University Of Oslo</a>.
+          Moreover, I am contributing on Dark Matter Research at <a href="">UIS Research Center</a>.
+          I previously worked as a developer at the startup <a href="http://techisland.it/">Techisland</a>, and for
            <a href="https://www.3ai.co/"> 3AI (Progetto 2000)</a>.
         </p>
         <ul className="actions">

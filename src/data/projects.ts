@@ -45,7 +45,7 @@ const data: Project[] = [
   {
     title: 'Quantum Key Distribution',
     subtitle: '1st Place - IBM Qiskit Fall Fest 2025',
-    link: 'https://github.com/francescomininisi', // Placeholder assuming user wants github link here if not specified
+    link: 'https://qkd-nexus-lab.vercel.app/',
     image: 'images/projects/qkd.jpg',
     date: '2025-09-01',
     desc:
