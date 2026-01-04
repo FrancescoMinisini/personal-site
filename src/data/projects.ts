@@ -142,6 +142,27 @@ const data: Project[] = [
           keywords: ["quantum reinforcement learning", "benchmarking", "sample complexity", "quantum advantage"]
         },
         description: "This paper proposes a statistically robust benchmarking framework for quantum reinforcement learning, focusing on sample complexity as a primary performance metric. Through extensive empirical evaluation, it highlights the challenges of reproducibility and questions overly optimistic claims of quantum advantage in current QRL approaches."
+      },
+      {
+        title: "Reinforcement Learning in Different Phases of Quantum Control",
+        authors: [
+          "Marin Bukov",
+          "Alexandre G. R. Day",
+          "Dries Sels",
+          "Phillip Weinberg",
+          "Anatoli Polkovnikov",
+          "Pankaj Mehta"
+        ],
+        year: 2018,
+        publication_type: "Journal Article",
+        venue: "Physical Review X",
+        location: "Cambridge, MA, USA",
+        url: "https://link.aps.org/doi/10.1103/PhysRevX.8.031086",
+        identifiers: {
+          doi: "10.1103/PhysRevX.8.031086",
+          arXiv: "arXiv:1705.00565"
+        },
+        description: "This work applies reinforcement learning (RL) algorithms to the task of quantum state preparation in nonintegrable many-body systems. The authors demonstrate that RL can find short, high-fidelity control protocols that rival optimal control methods. They also identify a spin-glass-like phase transition in the space of control protocols as a function of protocol duration, revealing complex structure in the quantum control landscape and highlighting the potential of RL for out-of-equilibrium quantum physics tasks."
       }
     ]
   },
