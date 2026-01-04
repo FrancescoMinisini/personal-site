@@ -326,7 +326,7 @@ const data: Project[] = [
       {
         label: 'Visit Project',
         url: 'https://qkd-nexus-lab.vercel.app/',
-        description: 'Interactive simulation'
+        // description: 'Interactive simulation'
       },
       {
         label: 'View on GitHub',
