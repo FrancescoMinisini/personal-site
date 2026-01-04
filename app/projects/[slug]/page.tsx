@@ -5,7 +5,7 @@ import { notFound } from 'next/navigation';
 import dayjs from 'dayjs';
 
 import PageWrapper from '../../components/PageWrapper';
-import projects from '@/data/projects';
+import projects, { type PaperReference } from '@/data/projects';
 
 export function generateStaticParams() {
     return projects.map((project) => ({
@@ -87,14 +87,42 @@ const ProjectPage = async ({ params }: ProjectPageProps) => {
                 {project.references && project.references.length > 0 && (
                     <section style={{ marginTop: '2rem' }}>
                         <h3>References / Inspired By</h3>
-                        <ul>
-                            {project.references.map((ref) => (
-                                <li key={ref.url}>
-                                    <a href={ref.url} target="_blank" rel="noopener noreferrer">
-                                        {ref.label || ref.url}
-                                    </a>
-                                </li>
-                            ))}
+                        <ul style={{ listStyle: 'none', paddingLeft: 0 }}>
+                            {project.references.map((ref, index) => {
+                                // Check if it's a PaperReference (has 'authors' property)
+                                if ('authors' in ref) {
+                                    const paper = ref as PaperReference;
+                                    return (
+                                        <li key={paper.url || index} style={{ marginBottom: '1.5rem', paddingBottom: '1.5rem', borderBottom: '1px solid #eee' }}>
+                                            <div style={{ fontWeight: 'bold', fontSize: '1.1em', marginBottom: '0.2rem' }}>
+                                                <a href={paper.url} target="_blank" rel="noopener noreferrer" style={{ textDecoration: 'none', borderBottom: 'none' }}>
+                                                    {paper.title}
+                                                </a>
+                                            </div>
+                                            <div style={{ fontStyle: 'italic', marginBottom: '0.2rem' }}>
+                                                {paper.authors.join(', ')}
+                                            </div>
+                                            <div style={{ color: '#666', fontSize: '0.95em' }}>
+                                                {paper.venue} ({paper.year})
+                                                {paper.identifiers?.arXiv && ` • ${paper.identifiers.arXiv}`}
+                                            </div>
+                                            {paper.description && (
+                                                <div style={{ marginTop: '0.5rem', fontSize: '0.9em' }}>
+                                                    {paper.description}
+                                                </div>
+                                            )}
+                                        </li>
+                                    );
+                                }
+                                // Fallback for simple link references
+                                return (
+                                    <li key={ref.url} style={{ marginBottom: '0.5rem' }}>
+                                        <a href={ref.url} target="_blank" rel="noopener noreferrer">
+                                            {ref.label || ref.url}
+                                        </a>
+                                    </li>
+                                );
+                            })}
                         </ul>
                     </section>
                 )}
