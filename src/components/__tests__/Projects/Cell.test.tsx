@@ -10,14 +10,14 @@ describe('Cell', () => {
     image: '/images/test.jpg',
     date: '2023-01-01',
     desc: 'This is a test project description',
-    link: 'https://example.com',
+    slug: 'test-project',
   };
 
   it('renders project title with link', () => {
     render(<Cell data={mockProject} />);
     const titleLinks = screen.getAllByRole('link', { name: mockProject.title });
     expect(titleLinks).toHaveLength(2); // Title link and image link
-    expect(titleLinks[0]).toHaveAttribute('href', mockProject.link);
+    expect(titleLinks[0]).toHaveAttribute('href', `/projects/${mockProject.slug}`);
   });
 
   it('renders project description', () => {
