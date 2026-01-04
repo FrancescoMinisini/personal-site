@@ -178,7 +178,16 @@ const data: Project[] = [
       'The project is currently ongoing and will be updated as progress is made.',
     slug: 'dark-matter-detectors',
     status: 'Ongoing',
-    links: [],
+    links: [
+      {
+        label: 'S1 Simulation',
+        url: 'https://github.com/UIS-Reasearch/Lux-Zeplin-S1-Sim',
+      },
+      {
+        label: 'S2 Simulation',
+        url: 'https://github.com/UIS-Reasearch/Lux-Zeplin-S2-Sim',
+      },
+    ],
     references: [
       {
         title: "Pulse Shape Discrimination and Exploration of Scintillation Signals Using Convolutional Neural Networks",
