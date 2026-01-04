@@ -10,6 +10,7 @@ export interface PaperReference {
   identifiers?: {
     arXiv?: string;
     doi?: string;
+    isbn?: string;
     experiment?: string;
     keywords?: string[];
   };
@@ -56,8 +57,91 @@ const data: Project[] = [
     links: [],
     references: [
       {
-        label: '',
-        url: ''
+        title: "Quantum Reinforcement Learning in Continuous Action Space",
+        authors: [
+          "Shaojun Wu",
+          "Shan Jin",
+          "Dingding Wen",
+          "Donghong Han",
+          "Xiaoting Wang"
+        ],
+        year: 2025,
+        publication_type: "Journal Article",
+        venue: "Quantum",
+        location: "Chengdu, China",
+        url: "https://arxiv.org/abs/2012.10711",
+        identifiers: {
+          arXiv: "arXiv:2012.10711",
+          keywords: ["quantum reinforcement learning", "continuous action space", "DDPG", "quantum control"]
+        },
+        description: "This paper introduces a quantum Deep Deterministic Policy Gradient (Q-DDPG) algorithm to address reinforcement learning problems in continuous action spaces. The framework enables single-shot quantum state generation, allowing a trained agent to produce control sequences that drive arbitrary initial states to a desired target state, overcoming limitations of discretization and repeated optimization in conventional quantum control."
+      },
+      // {
+      //   title: "An Introduction to Reinforcement Learning: From Theory to Algorithms",
+      //   authors: ["Joon Kwon"],
+      //   year: 2024,
+      //   publication_type: "Lecture Notes",
+      //   venue: "Université Paris-Saclay",
+      //   location: "Paris, France",
+      //   url: "https://joonkwon.github.io/rl-lecture-notes/",
+      //   identifiers: {
+      //     keywords: ["reinforcement learning", "MDP", "Bellman equations", "policy gradient"]
+      //   },
+      //   description: "These lecture notes provide a rigorous and mathematically grounded introduction to reinforcement learning. They cover Markov Decision Processes, Bellman operators, dynamic programming, tabular RL, value function approximation, and policy gradient methods, with an emphasis on theoretical guarantees and algorithmic foundations."
+      // },
+      {
+        title: "Reinforcement Learning: An Introduction (Second Edition)",
+        authors: ["Richard S. Sutton", "Andrew G. Barto"],
+        year: 2018,
+        publication_type: "Book",
+        venue: "MIT Press",
+        location: "Cambridge, MA, USA",
+        url: "http://incompleteideas.net/book/the-book.html",
+        identifiers: {
+          isbn: "978-0262039246",
+          keywords: ["reinforcement learning", "temporal-difference learning", "policy iteration", "function approximation"]
+        },
+        description: "This seminal textbook is the standard reference for reinforcement learning. It presents the conceptual framework and core algorithms of RL, including dynamic programming, Monte Carlo methods, temporal-difference learning, and policy gradient techniques, and discusses extensions to function approximation and modern deep RL."
+      },
+      {
+        title: "Universal Quantum Control through Deep Reinforcement Learning",
+        authors: [
+          "Murphy Yuezhen Niu",
+          "Sergio Boixo",
+          "Vadim Smelyanskiy",
+          "Hartmut Neven"
+        ],
+        year: 2018,
+        publication_type: "Journal Article",
+        venue: "Physical Review A",
+        location: "Cambridge, MA, USA / Venice Beach, CA, USA",
+        url: "https://arxiv.org/abs/1803.01857",
+        identifiers: {
+          arXiv: "arXiv:1803.01857",
+          keywords: ["quantum control", "deep reinforcement learning", "leakage suppression", "two-qubit gates"]
+        },
+        description: "This work proposes a deep reinforcement learning framework for universal quantum control, optimizing both gate fidelity and execution time under realistic noise and leakage. By incorporating control noise during training, the approach achieves substantial reductions in gate error and duration compared to traditional gradient-based quantum control methods."
+      },
+      {
+        title: "Benchmarking Quantum Reinforcement Learning",
+        authors: [
+          "Nico Meyer",
+          "Christian Ufrecht",
+          "George Yammine",
+          "Georgios Kontes",
+          "Christopher Mutschler",
+          "Daniel D. Scherer"
+        ],
+        year: 2025,
+        publication_type: "Conference Paper",
+        venue: "Proceedings of the 42nd International Conference on Machine Learning (ICML)",
+        location: "Vancouver, Canada",
+        url: "https://arxiv.org/abs/2501.15893",
+        identifiers: {
+          arXiv: "arXiv:2501.15893",
+          keywords: ["quantum reinforcement learning", "benchmarking", "sample complexity", "quantum advantage"]
+        },
+        description: "This paper proposes a statistically robust benchmarking framework for quantum reinforcement learning, focusing on sample complexity as a primary performance metric. Through extensive empirical evaluation, it highlights the challenges of reproducibility and questions overly optimistic claims of quantum advantage in current QRL approaches."
       }
     ]
   },
